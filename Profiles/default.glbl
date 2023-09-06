@@ -4,4 +4,33 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-</GlobalVariableEntities>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.solodroid.solomerce'</initValue>
+      <name>application_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kim.mingyu@gmail.com'</initValue>
+      <name>validEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kim Mingyu@gmail.com'</initValue>
+      <name>invalidEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'08123456789'</initValue>
+      <name>phoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Gangnam, Seoul'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kim Mingyu'</initValue>
+      <name>name</name>
+   </GlobalVariableEntity>

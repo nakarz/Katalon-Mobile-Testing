@@ -38,5 +38,5 @@ Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/txt_title-phone
 
 Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/txt_title-address-section-edit_profile'), 0)
 
-WebUI.callTestCase(findTestCase('Reusable-Test/TC0_Terminate-App'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Profile/Edit Profile/btn_back-edit_profile'), 0)
 

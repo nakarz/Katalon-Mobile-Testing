@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('TC_Profile/TC2_Access-Edit-Profile-Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Profile/btn_edit-profile'), 0)
+
 // Name Form
 Mobile.tap(findTestObject('Profile/Edit Profile/btn_name-section-edit_profile'), 0)
 

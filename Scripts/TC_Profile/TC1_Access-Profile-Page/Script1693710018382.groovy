@@ -65,5 +65,3 @@ Mobile.verifyElementVisible(findTestObject('Profile/txt_privacy-policy-profile')
 
 Mobile.verifyElementVisible(findTestObject('Profile/btn_privacy-policy-profile'), 0)
 
-WebUI.callTestCase(findTestCase('Reusable-Test/TC0_Terminate-App'), [:], FailureHandling.STOP_ON_FAILURE)
-

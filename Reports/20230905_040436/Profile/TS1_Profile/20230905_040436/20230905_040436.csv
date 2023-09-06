@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_Profile,,,,2023-09-05 04:04:54,2023-09-05 04:06:54,2m - 0.389s,FAILED
+,,,,,,,
+Test Cases/TC_Profile/TC1_Access-Profile-Page,,,,2023-09-05 04:04:54,2023-09-05 04:05:50,56.125s,PASSED
+"callTestCase(findTestCase(""Reusable-Test/TC0_Launch-Exist-App""), [:], STOP_ON_FAILURE)",,,,2023-09-05 04:04:54,2023-09-05 04:05:36,41.794s,PASSED
+"verifyElementVisible(findTestObject(""Profile/icon_navbar-profile""), 0)",,,,2023-09-05 04:05:36,2023-09-05 04:05:40,3.814s,PASSED
+"tap(findTestObject(""Profile/btn_profile-navbar""), 0)",,,,2023-09-05 04:05:40,2023-09-05 04:05:41,0.929s,PASSED
+"extractedTitleProfile = getText(findTestObject(""Profile/txt_title-page_profile""), 0)",,Get displayed txt on the dialog,,2023-09-05 04:05:41,2023-09-05 04:05:44,3.150s,PASSED
+"verifyEqual(extractedTitleProfile, ""Profile"")",,Verify if displayed txt is correct,,2023-09-05 04:05:44,2023-09-05 04:05:44,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Profile/btn_cart-profile""), 0)",,,,2023-09-05 04:05:44,2023-09-05 04:05:44,0.274s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_name-profile""), 0)",,,,2023-09-05 04:05:44,2023-09-05 04:05:45,0.254s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_email-profile""), 0)",,,,2023-09-05 04:05:45,2023-09-05 04:05:45,0.181s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_phone-number-profile""), 0)",,,,2023-09-05 04:05:45,2023-09-05 04:05:45,0.227s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_address-profile""), 0)",,,,2023-09-05 04:05:45,2023-09-05 04:05:45,0.246s,PASSED
+"verifyElementVisible(findTestObject(""Profile/btn_edit-profile""), 0)",,,,2023-09-05 04:05:45,2023-09-05 04:05:46,0.351s,PASSED
+"verifyElementVisible(findTestObject(""Profile/icon_order-history-profile""), 0)",,,,2023-09-05 04:05:46,2023-09-05 04:05:46,0.749s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_order-history-profile""), 0)",,,,2023-09-05 04:05:46,2023-09-05 04:05:47,0.188s,PASSED
+"verifyElementVisible(findTestObject(""Profile/btn_order-history-profile""), 0)",,,,2023-09-05 04:05:47,2023-09-05 04:05:47,0.403s,PASSED
+"verifyElementVisible(findTestObject(""Profile/icon_rate-us-profile""), 0)",,,,2023-09-05 04:05:47,2023-09-05 04:05:47,0.349s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_rate-us-profile""), 0)",,,,2023-09-05 04:05:47,2023-09-05 04:05:48,0.391s,PASSED
+"verifyElementVisible(findTestObject(""Profile/btn_rate-us-profile""), 0)",,,,2023-09-05 04:05:48,2023-09-05 04:05:48,0.269s,PASSED
+"verifyElementVisible(findTestObject(""Profile/icon_share-profile""), 0)",,,,2023-09-05 04:05:48,2023-09-05 04:05:48,0.340s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_share-profile""), 0)",,,,2023-09-05 04:05:48,2023-09-05 04:05:49,0.323s,PASSED
+"verifyElementVisible(findTestObject(""Profile/btn_share-profile""), 0)",,,,2023-09-05 04:05:49,2023-09-05 04:05:49,0.252s,PASSED
+"verifyElementVisible(findTestObject(""Profile/icon_privacy-policy-profile""), 0)",,,,2023-09-05 04:05:49,2023-09-05 04:05:49,0.263s,PASSED
+"verifyElementVisible(findTestObject(""Profile/txt_privacy-policy-profile""), 0)",,,,2023-09-05 04:05:49,2023-09-05 04:05:49,0.237s,PASSED
+"verifyElementVisible(findTestObject(""Profile/btn_privacy-policy-profile""), 0)",,,,2023-09-05 04:05:49,2023-09-05 04:05:50,0.186s,PASSED
+"callTestCase(findTestCase(""Reusable-Test/TC0_Terminate-App""), [:], STOP_ON_FAILURE)",,,,2023-09-05 04:05:50,2023-09-05 04:05:50,0.509s,PASSED
+,,,,,,,
+Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page,,,,2023-09-05 04:05:50,2023-09-05 04:06:12,21.902s,PASSED
+"callTestCase(findTestCase(""TC_Profile/TC1_Access-Profile-Page""), [:], STOP_ON_FAILURE)",,,,2023-09-05 04:05:50,2023-09-05 04:06:09,18.286s,PASSED
+"tap(findTestObject(""Profile/btn_edit-profile""), 0)",,,,2023-09-05 04:06:09,2023-09-05 04:06:09,0.245s,PASSED
+"extractedTitleUserProfile = getText(findTestObject(""Profile/Edit Profile/txt_title-user_profile-edit_profile""), 0)",,Get displayed txt on the dialog,,2023-09-05 04:06:09,2023-09-05 04:06:11,1.578s,PASSED
+"verifyEqual(extractedTitleUserProfile, ""User Profile"")",,Verify if displayed txt is correct,,2023-09-05 04:06:11,2023-09-05 04:06:11,0.004s,PASSED
+"verifyElementVisible(findTestObject(""Profile/Edit Profile/txt_title-form-edit_profile""), 0)",,,,2023-09-05 04:06:11,2023-09-05 04:06:11,0.222s,PASSED
+"verifyElementVisible(findTestObject(""Profile/Edit Profile/txt_title-name-section-edit_profile""), 0)",,,,2023-09-05 04:06:11,2023-09-05 04:06:11,0.207s,PASSED
+"verifyElementVisible(findTestObject(""Profile/Edit Profile/txt_title-email-section-edit_profile""), 0)",,,,2023-09-05 04:06:11,2023-09-05 04:06:11,0.151s,PASSED
+"verifyElementVisible(findTestObject(""Profile/Edit Profile/txt_title-phone-number-section-edit_profile""), 0)",,,,2023-09-05 04:06:11,2023-09-05 04:06:12,0.443s,PASSED
+"verifyElementVisible(findTestObject(""Profile/Edit Profile/txt_title-address-section-edit_profile""), 0)",,,,2023-09-05 04:06:12,2023-09-05 04:06:12,0.281s,PASSED
+"callTestCase(findTestCase(""Reusable-Test/TC0_Terminate-App""), [:], STOP_ON_FAILURE)",,,,2023-09-05 04:06:12,2023-09-05 04:06:12,0.241s,PASSED
+,,,,,,,
+Test Cases/TC_Profile/TC3_Edit-Profile-Page,,,,2023-09-05 04:06:12,2023-09-05 04:06:54,41.901s,FAILED
+"callTestCase(findTestCase(""TC_Profile/TC2_Access-Edit-Profile-Page""), [:], STOP_ON_FAILURE)",,,,2023-09-05 04:06:12,2023-09-05 04:06:54,41.640s,FAILED

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_Profile" time="288.706" tests="3" failures="0" errors="0">
+   <testsuite name="TS1_Profile" tests="3" failures="0" errors="0" time="288.706" skipped="0" timestamp="2023-09-06 05:49:39" hostname="Najwa - LAPTOP-TSBSMC4J" id="Test Suites/Profile/TS1_Profile">
+      <properties>
+         <property name="deviceName" value="emulator-5556 (sdk_gphone_x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\4 -- QA Automation\\Hacktiv8\\Assignment 3\\4 -- Ecommerce\\Katalon-Mobile-Testing\\Reports\\20230906_054920\\Profile\\TS1_Profile\\20230906_054920"/>
+         <property name="logFiles" value="D:\\4 -- QA Automation\\Hacktiv8\\Assignment 3\\4 -- Ecommerce\\Katalon-Mobile-Testing\\Reports\\20230906_054920\\Profile\\TS1_Profile\\20230906_054920\\appium.log, D:\\4 -- QA Automation\\Hacktiv8\\Assignment 3\\4 -- Ecommerce\\Katalon-Mobile-Testing\\Reports\\20230906_054920\\Profile\\TS1_Profile\\20230906_054920\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Najwa - LAPTOP-TSBSMC4J"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5556"/>
+         <property name="deviceName" value="emulator-5556 (sdk_gphone_x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Profile/TC1_Access-Profile-Page" time="109.819" classname="Test Cases/TC_Profile/TC1_Access-Profile-Page" status="PASSED">
+         <system-out><![CDATA[2023-09-06 05:49:39 - [TEST_CASE][PASSED] - Test Cases/TC_Profile/TC1_Access-Profile-Page: Test Cases/TC_Profile/TC1_Access-Profile-Page
+
+2023-09-06 05:49:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable-Test/TC0_Launch-Exist-App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable-Test/TC0_Launch-Exist-App' successfully
+
+2023-09-06 05:49:40 - [TEST_CASE][PASSED] - Test Cases/Reusable-Test/TC0_Launch-Exist-App: Test Cases/Reusable-Test/TC0_Launch-Exist-App
+
+2023-09-06 05:49:40 - [TEST_STEP][PASSED] - startExistingApplication(application_id, STOP_ON_FAILURE): Starting app with application ID: 'com.solodroid.solomerce'
+
+2023-09-06 05:49:41 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-09-06 05:49:45 - [MESSAGE][INFO] - Appium server started on port 57,238
+
+2023-09-06 05:50:23 - [MESSAGE][PASSED] - Starting app with application ID: 'com.solodroid.solomerce'
+
+2023-09-06 05:50:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable-Test/TC0_Launch-Exist-App' successfully
+
+2023-09-06 05:50:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_navbar-profile"), 0): Element 'Object Repository/Profile/icon_navbar-profile' is visible
+
+2023-09-06 05:50:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:50:53 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_navbar-profile' is visible
+
+2023-09-06 05:50:53 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/btn_profile-navbar"), 0): Tapped on element 'Object Repository/Profile/btn_profile-navbar'
+
+2023-09-06 05:50:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/btn_profile-navbar'
+
+2023-09-06 05:51:24 - [TEST_STEP][PASSED] - extractedTitleProfile = getText(findTestObject("Profile/txt_title-page_profile"), 0): Text of element 'Object Repository/Profile/txt_title-page_profile' is: 'Profile'
+
+2023-09-06 05:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:25 - [MESSAGE][PASSED] - Text of element 'Object Repository/Profile/txt_title-page_profile' is: 'Profile'
+
+2023-09-06 05:51:25 - [TEST_STEP][PASSED] - verifyEqual(extractedTitleProfile, "Profile"): Actual object 'Profile' and expected object 'Profile' are equal
+
+2023-09-06 05:51:25 - [MESSAGE][PASSED] - Actual object 'Profile' and expected object 'Profile' are equal
+
+2023-09-06 05:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_cart-profile"), 0): Element 'Object Repository/Profile/btn_cart-profile' is visible
+
+2023-09-06 05:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:25 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_cart-profile' is visible
+
+2023-09-06 05:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_name-profile"), 0): Element 'Object Repository/Profile/txt_name-profile' is visible
+
+2023-09-06 05:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:25 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_name-profile' is visible
+
+2023-09-06 05:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_email-profile"), 0): Element 'Object Repository/Profile/txt_email-profile' is visible
+
+2023-09-06 05:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:25 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_email-profile' is visible
+
+2023-09-06 05:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_phone-number-profile"), 0): Element 'Object Repository/Profile/txt_phone-number-profile' is visible
+
+2023-09-06 05:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:25 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_phone-number-profile' is visible
+
+2023-09-06 05:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_address-profile"), 0): Element 'Object Repository/Profile/txt_address-profile' is visible
+
+2023-09-06 05:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:26 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_address-profile' is visible
+
+2023-09-06 05:51:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_edit-profile"), 0): Element 'Object Repository/Profile/btn_edit-profile' is visible
+
+2023-09-06 05:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:26 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_edit-profile' is visible
+
+2023-09-06 05:51:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_order-history-profile"), 0): Element 'Object Repository/Profile/icon_order-history-profile' is visible
+
+2023-09-06 05:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:27 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_order-history-profile' is visible
+
+2023-09-06 05:51:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_order-history-profile"), 0): Element 'Object Repository/Profile/txt_order-history-profile' is visible
+
+2023-09-06 05:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:27 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_order-history-profile' is visible
+
+2023-09-06 05:51:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_order-history-profile"), 0): Element 'Object Repository/Profile/btn_order-history-profile' is visible
+
+2023-09-06 05:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:27 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_order-history-profile' is visible
+
+2023-09-06 05:51:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_rate-us-profile"), 0): Element 'Object Repository/Profile/icon_rate-us-profile' is visible
+
+2023-09-06 05:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:27 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_rate-us-profile' is visible
+
+2023-09-06 05:51:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_rate-us-profile"), 0): Element 'Object Repository/Profile/txt_rate-us-profile' is visible
+
+2023-09-06 05:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:28 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_rate-us-profile' is visible
+
+2023-09-06 05:51:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_rate-us-profile"), 0): Element 'Object Repository/Profile/btn_rate-us-profile' is visible
+
+2023-09-06 05:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:28 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_rate-us-profile' is visible
+
+2023-09-06 05:51:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_share-profile"), 0): Element 'Object Repository/Profile/icon_share-profile' is visible
+
+2023-09-06 05:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:28 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_share-profile' is visible
+
+2023-09-06 05:51:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_share-profile"), 0): Element 'Object Repository/Profile/txt_share-profile' is visible
+
+2023-09-06 05:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:28 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_share-profile' is visible
+
+2023-09-06 05:51:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_share-profile"), 0): Element 'Object Repository/Profile/btn_share-profile' is visible
+
+2023-09-06 05:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:29 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_share-profile' is visible
+
+2023-09-06 05:51:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_privacy-policy-profile"), 0): Element 'Object Repository/Profile/icon_privacy-policy-profile' is visible
+
+2023-09-06 05:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:29 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_privacy-policy-profile' is visible
+
+2023-09-06 05:51:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_privacy-policy-profile"), 0): Element 'Object Repository/Profile/txt_privacy-policy-profile' is visible
+
+2023-09-06 05:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:29 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_privacy-policy-profile' is visible
+
+2023-09-06 05:51:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_privacy-policy-profile"), 0): Element 'Object Repository/Profile/btn_privacy-policy-profile' is visible
+
+2023-09-06 05:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:51:29 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_privacy-policy-profile' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page" time="79.957" classname="Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page" status="PASSED">
+         <system-out><![CDATA[2023-09-06 05:51:29 - [TEST_CASE][PASSED] - Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page: Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page
+
+2023-09-06 05:51:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Profile/TC1_Access-Profile-Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Profile/TC1_Access-Profile-Page' successfully
+
+2023-09-06 05:51:30 - [TEST_CASE][PASSED] - Test Cases/TC_Profile/TC1_Access-Profile-Page: Test Cases/TC_Profile/TC1_Access-Profile-Page
+
+2023-09-06 05:51:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable-Test/TC0_Launch-Exist-App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable-Test/TC0_Launch-Exist-App' successfully
+
+2023-09-06 05:51:30 - [TEST_CASE][PASSED] - Test Cases/Reusable-Test/TC0_Launch-Exist-App: Test Cases/Reusable-Test/TC0_Launch-Exist-App
+
+2023-09-06 05:51:30 - [TEST_STEP][PASSED] - startExistingApplication(application_id, STOP_ON_FAILURE): Starting app with application ID: 'com.solodroid.solomerce'
+
+2023-09-06 05:51:40 - [MESSAGE][PASSED] - Starting app with application ID: 'com.solodroid.solomerce'
+
+2023-09-06 05:51:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable-Test/TC0_Launch-Exist-App' successfully
+
+2023-09-06 05:51:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_navbar-profile"), 0): Element 'Object Repository/Profile/icon_navbar-profile' is visible
+
+2023-09-06 05:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:11 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_navbar-profile' is visible
+
+2023-09-06 05:52:11 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/btn_profile-navbar"), 0): Tapped on element 'Object Repository/Profile/btn_profile-navbar'
+
+2023-09-06 05:52:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/btn_profile-navbar'
+
+2023-09-06 05:52:41 - [TEST_STEP][PASSED] - extractedTitleProfile = getText(findTestObject("Profile/txt_title-page_profile"), 0): Text of element 'Object Repository/Profile/txt_title-page_profile' is: 'Profile'
+
+2023-09-06 05:52:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Profile/txt_title-page_profile' is: 'Profile'
+
+2023-09-06 05:52:41 - [TEST_STEP][PASSED] - verifyEqual(extractedTitleProfile, "Profile"): Actual object 'Profile' and expected object 'Profile' are equal
+
+2023-09-06 05:52:41 - [MESSAGE][PASSED] - Actual object 'Profile' and expected object 'Profile' are equal
+
+2023-09-06 05:52:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_cart-profile"), 0): Element 'Object Repository/Profile/btn_cart-profile' is visible
+
+2023-09-06 05:52:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:41 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_cart-profile' is visible
+
+2023-09-06 05:52:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_name-profile"), 0): Element 'Object Repository/Profile/txt_name-profile' is visible
+
+2023-09-06 05:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:42 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_name-profile' is visible
+
+2023-09-06 05:52:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_email-profile"), 0): Element 'Object Repository/Profile/txt_email-profile' is visible
+
+2023-09-06 05:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:42 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_email-profile' is visible
+
+2023-09-06 05:52:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_phone-number-profile"), 0): Element 'Object Repository/Profile/txt_phone-number-profile' is visible
+
+2023-09-06 05:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:42 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_phone-number-profile' is visible
+
+2023-09-06 05:52:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_address-profile"), 0): Element 'Object Repository/Profile/txt_address-profile' is visible
+
+2023-09-06 05:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:42 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_address-profile' is visible
+
+2023-09-06 05:52:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_edit-profile"), 0): Element 'Object Repository/Profile/btn_edit-profile' is visible
+
+2023-09-06 05:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:42 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_edit-profile' is visible
+
+2023-09-06 05:52:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_order-history-profile"), 0): Element 'Object Repository/Profile/icon_order-history-profile' is visible
+
+2023-09-06 05:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:43 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_order-history-profile' is visible
+
+2023-09-06 05:52:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_order-history-profile"), 0): Element 'Object Repository/Profile/txt_order-history-profile' is visible
+
+2023-09-06 05:52:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:43 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_order-history-profile' is visible
+
+2023-09-06 05:52:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_order-history-profile"), 0): Element 'Object Repository/Profile/btn_order-history-profile' is visible
+
+2023-09-06 05:52:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:44 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_order-history-profile' is visible
+
+2023-09-06 05:52:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_rate-us-profile"), 0): Element 'Object Repository/Profile/icon_rate-us-profile' is visible
+
+2023-09-06 05:52:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:44 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_rate-us-profile' is visible
+
+2023-09-06 05:52:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_rate-us-profile"), 0): Element 'Object Repository/Profile/txt_rate-us-profile' is visible
+
+2023-09-06 05:52:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:44 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_rate-us-profile' is visible
+
+2023-09-06 05:52:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_rate-us-profile"), 0): Element 'Object Repository/Profile/btn_rate-us-profile' is visible
+
+2023-09-06 05:52:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:44 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_rate-us-profile' is visible
+
+2023-09-06 05:52:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_share-profile"), 0): Element 'Object Repository/Profile/icon_share-profile' is visible
+
+2023-09-06 05:52:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:45 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_share-profile' is visible
+
+2023-09-06 05:52:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_share-profile"), 0): Element 'Object Repository/Profile/txt_share-profile' is visible
+
+2023-09-06 05:52:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:45 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_share-profile' is visible
+
+2023-09-06 05:52:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_share-profile"), 0): Element 'Object Repository/Profile/btn_share-profile' is visible
+
+2023-09-06 05:52:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:45 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_share-profile' is visible
+
+2023-09-06 05:52:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_privacy-policy-profile"), 0): Element 'Object Repository/Profile/icon_privacy-policy-profile' is visible
+
+2023-09-06 05:52:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:45 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_privacy-policy-profile' is visible
+
+2023-09-06 05:52:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_privacy-policy-profile"), 0): Element 'Object Repository/Profile/txt_privacy-policy-profile' is visible
+
+2023-09-06 05:52:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:46 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_privacy-policy-profile' is visible
+
+2023-09-06 05:52:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_privacy-policy-profile"), 0): Element 'Object Repository/Profile/btn_privacy-policy-profile' is visible
+
+2023-09-06 05:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:46 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_privacy-policy-profile' is visible
+
+2023-09-06 05:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Profile/TC1_Access-Profile-Page' successfully
+
+2023-09-06 05:52:46 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/btn_edit-profile"), 0): Tapped on element 'Object Repository/Profile/btn_edit-profile'
+
+2023-09-06 05:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/btn_edit-profile'
+
+2023-09-06 05:52:46 - [TEST_STEP][PASSED] - extractedTitleUserProfile = getText(findTestObject("Profile/Edit Profile/txt_title-user_profile-edit_profile"), 0): Text of element 'Object Repository/Profile/Edit Profile/txt_title-user_profile-edit_profile' is: 'User Profile'
+
+2023-09-06 05:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:48 - [MESSAGE][PASSED] - Text of element 'Object Repository/Profile/Edit Profile/txt_title-user_profile-edit_profile' is: 'User Profile'
+
+2023-09-06 05:52:48 - [TEST_STEP][PASSED] - verifyEqual(extractedTitleUserProfile, "User Profile"): Actual object 'User Profile' and expected object 'User Profile' are equal
+
+2023-09-06 05:52:48 - [MESSAGE][PASSED] - Actual object 'User Profile' and expected object 'User Profile' are equal
+
+2023-09-06 05:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-form-edit_profile' is visible
+
+2023-09-06 05:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-form-edit_profile' is visible
+
+2023-09-06 05:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-name-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-name-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-name-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-email-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-email-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-email-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-phone-number-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-phone-number-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-phone-number-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-address-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-address-section-edit_profile' is visible
+
+2023-09-06 05:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:49 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-address-section-edit_profile' is visible
+
+2023-09-06 05:52:49 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/btn_back-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/btn_back-edit_profile'
+
+2023-09-06 05:52:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:52:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/btn_back-edit_profile']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Profile/TC3_Edit-Profile-Page" time="98.537" classname="Test Cases/TC_Profile/TC3_Edit-Profile-Page" status="PASSED">
+         <system-out><![CDATA[2023-09-06 05:52:49 - [TEST_CASE][PASSED] - Test Cases/TC_Profile/TC3_Edit-Profile-Page: Test Cases/TC_Profile/TC3_Edit-Profile-Page
+
+2023-09-06 05:52:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Profile/TC2_Access-Edit-Profile-Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page' successfully
+
+2023-09-06 05:52:50 - [TEST_CASE][PASSED] - Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page: Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page
+
+2023-09-06 05:52:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Profile/TC1_Access-Profile-Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Profile/TC1_Access-Profile-Page' successfully
+
+2023-09-06 05:52:50 - [TEST_CASE][PASSED] - Test Cases/TC_Profile/TC1_Access-Profile-Page: Test Cases/TC_Profile/TC1_Access-Profile-Page
+
+2023-09-06 05:52:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable-Test/TC0_Launch-Exist-App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable-Test/TC0_Launch-Exist-App' successfully
+
+2023-09-06 05:52:50 - [TEST_CASE][PASSED] - Test Cases/Reusable-Test/TC0_Launch-Exist-App: Test Cases/Reusable-Test/TC0_Launch-Exist-App
+
+2023-09-06 05:52:50 - [TEST_STEP][PASSED] - startExistingApplication(application_id, STOP_ON_FAILURE): Starting app with application ID: 'com.solodroid.solomerce'
+
+2023-09-06 05:53:00 - [MESSAGE][PASSED] - Starting app with application ID: 'com.solodroid.solomerce'
+
+2023-09-06 05:53:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable-Test/TC0_Launch-Exist-App' successfully
+
+2023-09-06 05:53:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_navbar-profile"), 0): Element 'Object Repository/Profile/icon_navbar-profile' is visible
+
+2023-09-06 05:53:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:53:30 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_navbar-profile' is visible
+
+2023-09-06 05:53:30 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/btn_profile-navbar"), 0): Tapped on element 'Object Repository/Profile/btn_profile-navbar'
+
+2023-09-06 05:53:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/btn_profile-navbar'
+
+2023-09-06 05:54:01 - [TEST_STEP][PASSED] - extractedTitleProfile = getText(findTestObject("Profile/txt_title-page_profile"), 0): Text of element 'Object Repository/Profile/txt_title-page_profile' is: 'Profile'
+
+2023-09-06 05:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/Profile/txt_title-page_profile' is: 'Profile'
+
+2023-09-06 05:54:01 - [TEST_STEP][PASSED] - verifyEqual(extractedTitleProfile, "Profile"): Actual object 'Profile' and expected object 'Profile' are equal
+
+2023-09-06 05:54:01 - [MESSAGE][PASSED] - Actual object 'Profile' and expected object 'Profile' are equal
+
+2023-09-06 05:54:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_cart-profile"), 0): Element 'Object Repository/Profile/btn_cart-profile' is visible
+
+2023-09-06 05:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_cart-profile' is visible
+
+2023-09-06 05:54:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_name-profile"), 0): Element 'Object Repository/Profile/txt_name-profile' is visible
+
+2023-09-06 05:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_name-profile' is visible
+
+2023-09-06 05:54:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_email-profile"), 0): Element 'Object Repository/Profile/txt_email-profile' is visible
+
+2023-09-06 05:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_email-profile' is visible
+
+2023-09-06 05:54:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_phone-number-profile"), 0): Element 'Object Repository/Profile/txt_phone-number-profile' is visible
+
+2023-09-06 05:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_phone-number-profile' is visible
+
+2023-09-06 05:54:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_address-profile"), 0): Element 'Object Repository/Profile/txt_address-profile' is visible
+
+2023-09-06 05:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:02 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_address-profile' is visible
+
+2023-09-06 05:54:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_edit-profile"), 0): Element 'Object Repository/Profile/btn_edit-profile' is visible
+
+2023-09-06 05:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:03 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_edit-profile' is visible
+
+2023-09-06 05:54:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_order-history-profile"), 0): Element 'Object Repository/Profile/icon_order-history-profile' is visible
+
+2023-09-06 05:54:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:03 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_order-history-profile' is visible
+
+2023-09-06 05:54:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_order-history-profile"), 0): Element 'Object Repository/Profile/txt_order-history-profile' is visible
+
+2023-09-06 05:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:04 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_order-history-profile' is visible
+
+2023-09-06 05:54:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_order-history-profile"), 0): Element 'Object Repository/Profile/btn_order-history-profile' is visible
+
+2023-09-06 05:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:04 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_order-history-profile' is visible
+
+2023-09-06 05:54:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_rate-us-profile"), 0): Element 'Object Repository/Profile/icon_rate-us-profile' is visible
+
+2023-09-06 05:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:04 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_rate-us-profile' is visible
+
+2023-09-06 05:54:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_rate-us-profile"), 0): Element 'Object Repository/Profile/txt_rate-us-profile' is visible
+
+2023-09-06 05:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:05 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_rate-us-profile' is visible
+
+2023-09-06 05:54:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_rate-us-profile"), 0): Element 'Object Repository/Profile/btn_rate-us-profile' is visible
+
+2023-09-06 05:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:05 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_rate-us-profile' is visible
+
+2023-09-06 05:54:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_share-profile"), 0): Element 'Object Repository/Profile/icon_share-profile' is visible
+
+2023-09-06 05:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:05 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_share-profile' is visible
+
+2023-09-06 05:54:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_share-profile"), 0): Element 'Object Repository/Profile/txt_share-profile' is visible
+
+2023-09-06 05:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:05 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_share-profile' is visible
+
+2023-09-06 05:54:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_share-profile"), 0): Element 'Object Repository/Profile/btn_share-profile' is visible
+
+2023-09-06 05:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:06 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_share-profile' is visible
+
+2023-09-06 05:54:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/icon_privacy-policy-profile"), 0): Element 'Object Repository/Profile/icon_privacy-policy-profile' is visible
+
+2023-09-06 05:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:06 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/icon_privacy-policy-profile' is visible
+
+2023-09-06 05:54:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/txt_privacy-policy-profile"), 0): Element 'Object Repository/Profile/txt_privacy-policy-profile' is visible
+
+2023-09-06 05:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:06 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/txt_privacy-policy-profile' is visible
+
+2023-09-06 05:54:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/btn_privacy-policy-profile"), 0): Element 'Object Repository/Profile/btn_privacy-policy-profile' is visible
+
+2023-09-06 05:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:06 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/btn_privacy-policy-profile' is visible
+
+2023-09-06 05:54:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Profile/TC1_Access-Profile-Page' successfully
+
+2023-09-06 05:54:06 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/btn_edit-profile"), 0): Tapped on element 'Object Repository/Profile/btn_edit-profile'
+
+2023-09-06 05:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/btn_edit-profile'
+
+2023-09-06 05:54:06 - [TEST_STEP][PASSED] - extractedTitleUserProfile = getText(findTestObject("Profile/Edit Profile/txt_title-user_profile-edit_profile"), 0): Text of element 'Object Repository/Profile/Edit Profile/txt_title-user_profile-edit_profile' is: 'User Profile'
+
+2023-09-06 05:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:08 - [MESSAGE][PASSED] - Text of element 'Object Repository/Profile/Edit Profile/txt_title-user_profile-edit_profile' is: 'User Profile'
+
+2023-09-06 05:54:08 - [TEST_STEP][PASSED] - verifyEqual(extractedTitleUserProfile, "User Profile"): Actual object 'User Profile' and expected object 'User Profile' are equal
+
+2023-09-06 05:54:08 - [MESSAGE][PASSED] - Actual object 'User Profile' and expected object 'User Profile' are equal
+
+2023-09-06 05:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-form-edit_profile' is visible
+
+2023-09-06 05:54:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:08 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-form-edit_profile' is visible
+
+2023-09-06 05:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-name-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-name-section-edit_profile' is visible
+
+2023-09-06 05:54:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:08 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-name-section-edit_profile' is visible
+
+2023-09-06 05:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-email-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-email-section-edit_profile' is visible
+
+2023-09-06 05:54:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:08 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-email-section-edit_profile' is visible
+
+2023-09-06 05:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-phone-number-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-phone-number-section-edit_profile' is visible
+
+2023-09-06 05:54:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:09 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-phone-number-section-edit_profile' is visible
+
+2023-09-06 05:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/txt_title-address-section-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/txt_title-address-section-edit_profile' is visible
+
+2023-09-06 05:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:09 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/txt_title-address-section-edit_profile' is visible
+
+2023-09-06 05:54:09 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/btn_back-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/btn_back-edit_profile'
+
+2023-09-06 05:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/btn_back-edit_profile'
+
+2023-09-06 05:54:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Profile/TC2_Access-Edit-Profile-Page' successfully
+
+2023-09-06 05:54:09 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/btn_edit-profile"), 0): Tapped on element 'Object Repository/Profile/btn_edit-profile'
+
+2023-09-06 05:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/btn_edit-profile'
+
+2023-09-06 05:54:10 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/btn_name-section-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/btn_name-section-edit_profile'
+
+2023-09-06 05:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/btn_name-section-edit_profile'
+
+2023-09-06 05:54:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Name/card_name-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Name/card_name-form-edit_profile' is visible
+
+2023-09-06 05:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:13 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Name/card_name-form-edit_profile' is visible
+
+2023-09-06 05:54:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Name/txt_title-card-name-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Name/txt_title-card-name-edit_profile' is visible
+
+2023-09-06 05:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:13 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Name/txt_title-card-name-edit_profile' is visible
+
+2023-09-06 05:54:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Name/btn_cancel-name-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Name/btn_cancel-name-form-edit_profile' is visible
+
+2023-09-06 05:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:13 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Name/btn_cancel-name-form-edit_profile' is visible
+
+2023-09-06 05:54:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile' is visible
+
+2023-09-06 05:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:13 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile' is visible
+
+2023-09-06 05:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/Edit Profile/Section/Name/input_name-form-edit_profile"), name, 0): Text 'Kim Mingyu' has been set to element 'Object Repository/Profile/Edit Profile/Section/Name/input_name-form-edit_profile'
+
+2023-09-06 05:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:14 - [MESSAGE][PASSED] - Text 'Kim Mingyu' has been set to element 'Object Repository/Profile/Edit Profile/Section/Name/input_name-form-edit_profile'
+
+2023-09-06 05:54:15 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile'
+
+2023-09-06 05:54:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile'
+
+2023-09-06 05:54:16 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/btn_email-section-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/btn_email-section-edit_profile'
+
+2023-09-06 05:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/btn_email-section-edit_profile'
+
+2023-09-06 05:54:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Email/card_email-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Email/card_email-form-edit_profile' is visible
+
+2023-09-06 05:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:17 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Email/card_email-form-edit_profile' is visible
+
+2023-09-06 05:54:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Email/txt_title-card-email-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Email/txt_title-card-email-edit_profile' is visible
+
+2023-09-06 05:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:17 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Email/txt_title-card-email-edit_profile' is visible
+
+2023-09-06 05:54:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Email/btn_cancel-email-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Email/btn_cancel-email-form-edit_profile' is visible
+
+2023-09-06 05:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:17 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Email/btn_cancel-email-form-edit_profile' is visible
+
+2023-09-06 05:54:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile' is visible
+
+2023-09-06 05:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:18 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile' is visible
+
+2023-09-06 05:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/Edit Profile/Section/Email/input_email-form-edit_profile"), validEmail, 0): Text 'kim.mingyu@gmail.com' has been set to element 'Object Repository/Profile/Edit Profile/Section/Email/input_email-form-edit_profile'
+
+2023-09-06 05:54:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:19 - [MESSAGE][PASSED] - Text 'kim.mingyu@gmail.com' has been set to element 'Object Repository/Profile/Edit Profile/Section/Email/input_email-form-edit_profile'
+
+2023-09-06 05:54:19 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile'
+
+2023-09-06 05:54:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile'
+
+2023-09-06 05:54:20 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/btn_phone-number-section-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/btn_phone-number-section-edit_profile'
+
+2023-09-06 05:54:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/btn_phone-number-section-edit_profile'
+
+2023-09-06 05:54:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Phone Number/card_pn-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/card_pn-form-edit_profile' is visible
+
+2023-09-06 05:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:21 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/card_pn-form-edit_profile' is visible
+
+2023-09-06 05:54:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Phone Number/txt_title-card-pn-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/txt_title-card-pn-edit_profile' is visible
+
+2023-09-06 05:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:22 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/txt_title-card-pn-edit_profile' is visible
+
+2023-09-06 05:54:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Phone Number/btn_cancel-pn-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/btn_cancel-pn-form-edit_profile' is visible
+
+2023-09-06 05:54:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:22 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/btn_cancel-pn-form-edit_profile' is visible
+
+2023-09-06 05:54:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile' is visible
+
+2023-09-06 05:54:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:22 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile' is visible
+
+2023-09-06 05:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/Edit Profile/Section/Phone Number/input_pn-form-edit_profile"), phoneNumber, 0): Text '08123456789' has been set to element 'Object Repository/Profile/Edit Profile/Section/Phone Number/input_pn-form-edit_profile'
+
+2023-09-06 05:54:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:23 - [MESSAGE][PASSED] - Text '08123456789' has been set to element 'Object Repository/Profile/Edit Profile/Section/Phone Number/input_pn-form-edit_profile'
+
+2023-09-06 05:54:23 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile'
+
+2023-09-06 05:54:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile'
+
+2023-09-06 05:54:24 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/btn_address-form-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/btn_address-form-edit_profile'
+
+2023-09-06 05:54:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/btn_address-form-edit_profile'
+
+2023-09-06 05:54:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Address/card_address-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Address/card_address-form-edit_profile' is visible
+
+2023-09-06 05:54:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:25 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Address/card_address-form-edit_profile' is visible
+
+2023-09-06 05:54:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Address/txt_title-card-address-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Address/txt_title-card-address-edit_profile' is visible
+
+2023-09-06 05:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:26 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Address/txt_title-card-address-edit_profile' is visible
+
+2023-09-06 05:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Address/btn_cancel-address-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Address/btn_cancel-address-form-edit_profile' is visible
+
+2023-09-06 05:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:26 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Address/btn_cancel-address-form-edit_profile' is visible
+
+2023-09-06 05:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile"), 0): Element 'Object Repository/Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile' is visible
+
+2023-09-06 05:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:26 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile' is visible
+
+2023-09-06 05:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/Edit Profile/Section/Address/input_address-form-edit_profile"), address, 0): Text 'Gangnam, Seoul' has been set to element 'Object Repository/Profile/Edit Profile/Section/Address/input_address-form-edit_profile'
+
+2023-09-06 05:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:27 - [MESSAGE][PASSED] - Text 'Gangnam, Seoul' has been set to element 'Object Repository/Profile/Edit Profile/Section/Address/input_address-form-edit_profile'
+
+2023-09-06 05:54:27 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile"), 0): Tapped on element 'Object Repository/Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile'
+
+2023-09-06 05:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-06 05:54:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile'
+
+2023-09-06 05:54:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable-Test/TC0_Terminate-App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable-Test/TC0_Terminate-App' successfully
+
+2023-09-06 05:54:27 - [TEST_CASE][PASSED] - Test Cases/Reusable-Test/TC0_Terminate-App: Test Cases/Reusable-Test/TC0_Terminate-App
+
+2023-09-06 05:54:28 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-09-06 05:54:28 - [TEST_STEP][PASSED] - driver.terminateApp("io.appium.android.apis"): null
+
+2023-09-06 05:54:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable-Test/TC0_Terminate-App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-06 05:49:39 - [TEST_SUITE][PASSED] - TS1_Profile: Test Cases/TC_Profile/TC3_Edit-Profile-Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

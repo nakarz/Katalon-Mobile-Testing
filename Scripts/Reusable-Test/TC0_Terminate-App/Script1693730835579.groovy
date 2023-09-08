@@ -21,5 +21,5 @@ import io.appium.java_client.AppiumDriver as AppiumDriver
 
 driver = MobileDriverFactory.getDriver()
 
-driver.terminateApp('io.appium.android.apis')
+driver.terminateApp('com.solodroid.solomerce')
 

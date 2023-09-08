@@ -3,11 +3,16 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'com.solodroid.solomerce'</initValue>
       <name>application_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kim Mingyu'</initValue>
+      <name>name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -29,8 +34,4 @@
       <initValue>'Gangnam, Seoul'</initValue>
       <name>address</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Kim Mingyu'</initValue>
-      <name>name</name>
-   </GlobalVariableEntity>
+</GlobalVariableEntities>

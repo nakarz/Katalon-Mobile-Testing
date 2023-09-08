@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_Cart,,,,2023-09-08 07:47:44,2023-09-08 07:49:16,1m - 32.027s,FAILED
+,,,,,,,
+Test Cases/TC_Cart/TC1_Access-Empty-Cart,,,,2023-09-08 07:47:44,2023-09-08 07:47:59,15.043s,PASSED
+"callTestCase(findTestCase(""Reusable-Test/TC0_Launch-Exist-App""), [:], STOP_ON_FAILURE)",,,,2023-09-08 07:47:45,2023-09-08 07:47:57,12.133s,PASSED
+"tap(findTestObject(""Cart/btn_cart_home""), 0)",,,,2023-09-08 07:47:57,2023-09-08 07:47:58,0.858s,PASSED
+"verifyElementExist(findTestObject(""Cart/Empty Cart/txt_empty-cart_cart""), 10)",,,,2023-09-08 07:47:58,2023-09-08 07:47:59,0.846s,PASSED
+"verifyElementExist(findTestObject(""Cart/Empty Cart/icon_shopping-bag_cart""), 10)",,,,2023-09-08 07:47:59,2023-09-08 07:47:59,0.154s,PASSED
+"extractedContinueShopping = getText(findTestObject(""Cart/Empty Cart/btn_continue-shopping_cart""), 0)",,,,2023-09-08 07:47:59,2023-09-08 07:47:59,0.428s,PASSED
+"verifyEqual(extractedContinueShopping, ""CONTINUE SHOPPING"")",,,,2023-09-08 07:47:59,2023-09-08 07:47:59,0.033s,PASSED
+"verifyElementExist(findTestObject(""Cart/Empty Cart/btn_continue-shopping_cart""), 10)",,,,2023-09-08 07:47:59,2023-09-08 07:47:59,0.309s,PASSED
+,,,,,,,
+Test Cases/TC_Cart/TC2_Order-Product,,,,2023-09-08 07:48:00,2023-09-08 07:48:38,38.370s,FAILED
+"callTestCase(findTestCase(""TC_Cart/TC1_Access-Empty-Cart""), [:], STOP_ON_FAILURE)",,,,2023-09-08 07:48:00,2023-09-08 07:48:38,37.929s,FAILED
+,,,,,,,
+Test Cases/TC_Cart/TC3_Checkout-Product,,,,2023-09-08 07:48:38,2023-09-08 07:49:16,38.346s,FAILED
+"callTestCase(findTestCase(""TC_Cart/TC2_Order-Product""), [:], STOP_ON_FAILURE)",,,,2023-09-08 07:48:38,2023-09-08 07:49:16,38.093s,FAILED

@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_Cart,,,,2023-09-08 09:58:59,2023-09-08 10:00:13,1m - 14.017s,FAILED
+,,,,,,,
+Test Cases/TC_Cart/TC1_Access-Empty-Cart,,,,2023-09-08 09:58:59,2023-09-08 09:59:16,16.517s,PASSED
+"callTestCase(findTestCase(""Reusable-Test/TC0_Launch-Exist-App""), [:], STOP_ON_FAILURE)",,,,2023-09-08 09:59:00,2023-09-08 09:59:13,13.619s,PASSED
+"tap(findTestObject(""Cart/btn_cart_home""), 0)",,,,2023-09-08 09:59:13,2023-09-08 09:59:14,0.782s,PASSED
+"verifyElementExist(findTestObject(""Cart/Empty Cart/txt_empty-cart_cart""), 10)",,,,2023-09-08 09:59:14,2023-09-08 09:59:15,0.783s,PASSED
+"verifyElementExist(findTestObject(""Cart/Empty Cart/icon_shopping-bag_cart""), 10)",,,,2023-09-08 09:59:15,2023-09-08 09:59:15,0.122s,PASSED
+"extractedContinueShopping = getText(findTestObject(""Cart/Empty Cart/btn_continue-shopping_cart""), 0)",,,,2023-09-08 09:59:15,2023-09-08 09:59:15,0.232s,PASSED
+"verifyEqual(extractedContinueShopping, ""CONTINUE SHOPPING"")",,,,2023-09-08 09:59:15,2023-09-08 09:59:15,0.011s,PASSED
+"verifyElementExist(findTestObject(""Cart/Empty Cart/btn_continue-shopping_cart""), 10)",,,,2023-09-08 09:59:15,2023-09-08 09:59:15,0.158s,PASSED
+"tap(findTestObject(""Cart/btn_continue-shopping_cart""), 0)",,,,2023-09-08 09:59:15,2023-09-08 09:59:16,0.395s,PASSED
+,,,,,,,
+Test Cases/TC_Cart/TC2_Order-Product,,,,2023-09-08 09:59:16,2023-09-08 09:59:35,19.209s,PASSED
+"callTestCase(findTestCase(""TC_Cart/TC1_Access-Empty-Cart""), [:], STOP_ON_FAILURE)",,,,2023-09-08 09:59:16,2023-09-08 09:59:25,9.132s,PASSED
+"tap(findTestObject(""Home Shopping/btn_samsung-galaxy_home-shopping""), 0)",,,,2023-09-08 09:59:25,2023-09-08 09:59:28,2.892s,PASSED
+"verifyElementVisible(findTestObject(""Home Shopping/Samsung Galaxy S10/txt_product-title-samsung-s10_home-shopping""), 0)",,,,2023-09-08 09:59:28,2023-09-08 09:59:29,0.676s,PASSED
+"verifyElementVisible(findTestObject(""Home Shopping/Samsung Galaxy S10/txt_product-price-samsung-899usd-cart""), 0)",,,,2023-09-08 09:59:29,2023-09-08 09:59:29,0.163s,PASSED
+"verifyElementVisible(findTestObject(""Home Shopping/Samsung Galaxy S10/txt_product-stock-samsung-5items-cart""), 0)",,,,2023-09-08 09:59:29,2023-09-08 09:59:29,0.161s,PASSED
+"tap(findTestObject(""Home Shopping/Samsung Galaxy S10/btn_product-add-cart_home-shopping""), 0)",,,,2023-09-08 09:59:29,2023-09-08 09:59:29,0.235s,PASSED
+"verifyElementVisible(findTestObject(""Home Shopping/Samsung Galaxy S10/card_product-order-samsung-s10-home_shopping""), 0)",,,,2023-09-08 09:59:29,2023-09-08 09:59:30,1.089s,PASSED
+"setText(findTestObject(""Home Shopping/Samsung Galaxy S10/input_product-order-samsung-s10-home_shopping""), ""5"", 0)",,,,2023-09-08 09:59:30,2023-09-08 09:59:31,0.698s,PASSED
+"tap(findTestObject(""Home Shopping/Samsung Galaxy S10/btn_product-add-order-samsung-s10_home-shopping""), 0)",,,,2023-09-08 09:59:31,2023-09-08 09:59:32,0.596s,PASSED
+"tap(findTestObject(""Home Shopping/Samsung Galaxy S10/btn_product-cart-home_shopping""), 0)",,,,2023-09-08 09:59:32,2023-09-08 09:59:32,0.667s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/txt_title-shopping-cart_cart""), 0)",,,,2023-09-08 09:59:32,2023-09-08 09:59:33,0.825s,PASSED
+"verifyElementVisible(findTestObject(""Cart/btn_back-to-home-cart""), 0)",,,,2023-09-08 09:59:33,2023-09-08 09:59:33,0.206s,PASSED
+"verifyElementVisible(findTestObject(""Cart/btn_delete-all-items-cart""), 0)",,,,2023-09-08 09:59:33,2023-09-08 09:59:34,0.187s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/list_of-products-shooping-cart_cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:34,0.184s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/image_product-samsung-shopping-cart_cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:34,0.151s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/txt_product-title-samsung-shopping-cart_cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:34,0.144s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/txt_product-price-4.495usd-samsung-shopping-cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:34,0.137s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/txt_product-count-899usdx5-samsung-shopping-cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:34,0.119s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/txt_tax10-shopping-cart_cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:34,0.143s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/txt_total-price-shopping-cart_cart""), 0)",,,,2023-09-08 09:59:34,2023-09-08 09:59:35,0.138s,PASSED
+"verifyElementVisible(findTestObject(""Cart/Checkout/btn_checkout-shopping-cart_cart""), 0)",,,,2023-09-08 09:59:35,2023-09-08 09:59:35,0.173s,PASSED
+"tap(findTestObject(""Cart/btn_checkout-product-cart""), 0)",,,,2023-09-08 09:59:35,2023-09-08 09:59:35,0.212s,PASSED
+,,,,,,,
+Test Cases/TC_Cart/TC3_Checkout-Product,,,,2023-09-08 09:59:35,2023-09-08 10:00:13,37.923s,FAILED
+"callTestCase(findTestCase(""TC_Cart/TC2_Order-Product""), [:], STOP_ON_FAILURE)",,,,2023-09-08 09:59:35,2023-09-08 10:00:13,37.642s,FAILED

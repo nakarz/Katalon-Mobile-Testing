@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS3_Category,,,,2023-09-08 21:29:49,2023-09-08 21:30:56,1m - 7.378s,PASSED
+,,,,,,,
+Test Cases/TC_Category/TC1_Access-Category-Page,,,,2023-09-08 21:29:49,2023-09-08 21:30:09,19.376s,PASSED
+"callTestCase(findTestCase(""Reusable-Test/TC0_Launch-Exist-App""), [:], STOP_ON_FAILURE)",,,,2023-09-08 21:29:50,2023-09-08 21:30:02,12.752s,PASSED
+"verifyElementVisible(findTestObject(""Category/btn_category-navbar""), 0)",,,,2023-09-08 21:30:02,2023-09-08 21:30:04,1.299s,PASSED
+"tap(findTestObject(""Category/btn_category-navbar""), 0)",,,,2023-09-08 21:30:04,2023-09-08 21:30:05,1.188s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_title-category-catgory""), 0)",,,,2023-09-08 21:30:05,2023-09-08 21:30:05,0.208s,PASSED
+"verifyElementVisible(findTestObject(""Category/btn_search-category""), 0)",,,,2023-09-08 21:30:05,2023-09-08 21:30:05,0.155s,PASSED
+"verifyElementVisible(findTestObject(""Category/btn_cart-category""), 0)",,,,2023-09-08 21:30:05,2023-09-08 21:30:05,0.178s,PASSED
+"verifyElementVisible(findTestObject(""Category/icon_eg-category""), 0)",,,,2023-09-08 21:30:05,2023-09-08 21:30:06,0.162s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_eg-category""), 0)",,,,2023-09-08 21:30:06,2023-09-08 21:30:06,0.281s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_eg-items-category""), 0)",,,,2023-09-08 21:30:06,2023-09-08 21:30:06,0.216s,PASSED
+"verifyElementVisible(findTestObject(""Category/icon_fashions-category""), 0)",,,,2023-09-08 21:30:06,2023-09-08 21:30:06,0.171s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_fashions-category""), 0)",,,,2023-09-08 21:30:06,2023-09-08 21:30:06,0.154s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_fashion-items-category""), 0)",,,,2023-09-08 21:30:06,2023-09-08 21:30:07,0.193s,PASSED
+"verifyElementVisible(findTestObject(""Category/icon_baby-gear-category""), 0)",,,,2023-09-08 21:30:07,2023-09-08 21:30:07,0.170s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_baby-gear-category""), 0)",,,,2023-09-08 21:30:07,2023-09-08 21:30:07,0.221s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_baby-gear-items-category""), 0)",,,,2023-09-08 21:30:07,2023-09-08 21:30:07,0.172s,PASSED
+"verifyElementVisible(findTestObject(""Category/icon_hf-category""), 0)",,,,2023-09-08 21:30:07,2023-09-08 21:30:07,0.184s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_hf-category""), 0)",,,,2023-09-08 21:30:07,2023-09-08 21:30:07,0.148s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_hf-items-category""), 0)",,,,2023-09-08 21:30:07,2023-09-08 21:30:08,0.147s,PASSED
+"verifyElementVisible(findTestObject(""Category/icon_hs-category""), 0)",,,,2023-09-08 21:30:08,2023-09-08 21:30:08,0.138s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_hs-category""), 0)",,,,2023-09-08 21:30:08,2023-09-08 21:30:08,0.259s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_hf-items-category""), 0)",,,,2023-09-08 21:30:08,2023-09-08 21:30:08,0.167s,PASSED
+"verifyElementVisible(findTestObject(""Category/icon_oi-category""), 0)",,,,2023-09-08 21:30:08,2023-09-08 21:30:08,0.155s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_oi-category""), 0)",,,,2023-09-08 21:30:08,2023-09-08 21:30:08,0.171s,PASSED
+"verifyElementVisible(findTestObject(""Category/txt_oi-items-category""), 0)",,,,2023-09-08 21:30:08,2023-09-08 21:30:09,0.185s,PASSED
+,,,,,,,
+Test Cases/TC_Category/TC2_Order-Search-Product-From-Category,,,,2023-09-08 21:30:09,2023-09-08 21:30:56,47.771s,PASSED
+"callTestCase(findTestCase(""TC_Category/TC1_Access-Category-Page""), [:], STOP_ON_FAILURE)",,,,2023-09-08 21:30:09,2023-09-08 21:30:22,13.340s,PASSED
+"tap(findTestObject(""Category/btn_fashions-category""), 0)",,,,2023-09-08 21:30:22,2023-09-08 21:30:22,0.200s,PASSED
+"tap(findTestObject(""Category/Fashions/btn_product-man-batik-category_fashion""), 0)",,,,2023-09-08 21:30:22,2023-09-08 21:30:24,1.387s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/txt_product-title-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:24,2023-09-08 21:30:24,0.333s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/txt_product-price-25usd-category_fashion""), 0)",,,,2023-09-08 21:30:24,2023-09-08 21:30:26,1.411s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/txt_product-count-28itemsmen-batik-category_fashion""), 0)",,,,2023-09-08 21:30:26,2023-09-08 21:30:26,0.093s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/btn_add-to-cart-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:26,2023-09-08 21:30:26,0.109s,PASSED
+"tap(findTestObject(""Category/Fashions/btn_add-to-cart-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:26,2023-09-08 21:30:26,0.188s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/card_product-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:26,2023-09-08 21:30:27,1.110s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/txt_product-order-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:27,2023-09-08 21:30:27,0.103s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/btn_cancel-product-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:27,2023-09-08 21:30:27,0.114s,PASSED
+"verifyElementVisible(findTestObject(""Category/Fashions/btn_add-product-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:27,2023-09-08 21:30:27,0.126s,PASSED
+"setText(findTestObject(""Category/Fashions/input_product-men-batik-category_fashion""), ""10"", 5)",,,,2023-09-08 21:30:27,2023-09-08 21:30:28,0.838s,PASSED
+"tap(findTestObject(""Category/Fashions/btn_add-product-men-batik-category_fashion""), 0)",,,,2023-09-08 21:30:28,2023-09-08 21:30:29,0.594s,PASSED
+"tap(findTestObject(""Category/Fashions/btn-back-to-fashion-category_fashion""), 0)",,,,2023-09-08 21:30:29,2023-09-08 21:30:30,0.728s,PASSED
+"tap(findTestObject(""Category/Fashions/btn-back-to-category-category_fashion""), 0)",,,,2023-09-08 21:30:30,2023-09-08 21:30:31,1.883s,PASSED
+"tap(findTestObject(""Category/btn_office-industry-category""), 0)",,,,2023-09-08 21:30:31,2023-09-08 21:30:33,1.401s,PASSED
+"tap(findTestObject(""Category/Office and Industry/btn_calcu-doraemon-category_oi""), 0)",,,,2023-09-08 21:30:33,2023-09-08 21:30:34,1.272s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/txt_product-order-title-calcu-category_oi""), 0)",,,,2023-09-08 21:30:34,2023-09-08 21:30:35,0.414s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/txt_product-price-calcu-12usd-category_oi""), 0)",,,,2023-09-08 21:30:35,2023-09-08 21:30:36,1.291s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/txt_product-count-calcu-25items-category_oi""), 0)",,,,2023-09-08 21:30:36,2023-09-08 21:30:36,0.092s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/btn_add-to-cart-category_oi""), 0)",,,,2023-09-08 21:30:36,2023-09-08 21:30:36,0.118s,PASSED
+"tap(findTestObject(""Category/Office and Industry/btn_add-to-cart-category_oi""), 0)",,,,2023-09-08 21:30:36,2023-09-08 21:30:36,0.176s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/card_product-calcu-category_oi""), 0)",,,,2023-09-08 21:30:36,2023-09-08 21:30:37,1.108s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/txt_product-title-calcu-category_oi""), 0)",,,,2023-09-08 21:30:37,2023-09-08 21:30:37,0.092s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/btn_add-product-calcu-category_oi""), 0)",,,,2023-09-08 21:30:37,2023-09-08 21:30:38,0.122s,PASSED
+"verifyElementVisible(findTestObject(""Category/Office and Industry/btn-cancel-product-calcu-category_oi""), 0)",,,,2023-09-08 21:30:38,2023-09-08 21:30:38,0.108s,PASSED
+"setText(findTestObject(""Category/Office and Industry/input_product-calcu-category_oi""), ""15"", 5)",,,,2023-09-08 21:30:38,2023-09-08 21:30:39,0.847s,PASSED
+"tap(findTestObject(""Category/Office and Industry/btn_add-product-calcu-category_oi""), 0)",,,,2023-09-08 21:30:39,2023-09-08 21:30:39,0.591s,PASSED
+"tap(findTestObject(""Category/Office and Industry/btn_back-to-oi-category_oi""), 0)",,,,2023-09-08 21:30:39,2023-09-08 21:30:40,0.732s,PASSED
+"tap(findTestObject(""Category/Fashions/btn-back-to-category-category_fashion""), 0)",,,,2023-09-08 21:30:40,2023-09-08 21:30:42,1.902s,PASSED
+"tap(findTestObject(""Category/btn_home-furniture-category""), 0)",,,,2023-09-08 21:30:42,2023-09-08 21:30:43,1.337s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_search-product-category_hf""), 0)",,,,2023-09-08 21:30:43,2023-09-08 21:30:45,1.642s,PASSED
+"setText(findTestObject(""Category/Home and Furniture/input_search-product-hf_category""), ""Hanger"", 10)",,,,2023-09-08 21:30:45,2023-09-08 21:30:47,2.223s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_product-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:47,2023-09-08 21:30:48,1.012s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/txt_product-title-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:48,2023-09-08 21:30:49,1.302s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/txt_product-price-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:49,2023-09-08 21:30:50,0.539s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/txt_product-count-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:50,2023-09-08 21:30:50,0.094s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/btn_add-to-cart-category_hf""), 0)",,,,2023-09-08 21:30:50,2023-09-08 21:30:50,0.130s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_add-to-cart-category_hf""), 0)",,,,2023-09-08 21:30:50,2023-09-08 21:30:50,0.171s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/card_product-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:50,2023-09-08 21:30:51,1.119s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/txt_product-order-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:51,2023-09-08 21:30:51,0.139s,PASSED
+"setText(findTestObject(""Category/Home and Furniture/input_product-stand-hanger-category_hf""), ""5"", 10)",,,,2023-09-08 21:30:51,2023-09-08 21:30:52,0.635s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/btn_add-product-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:52,2023-09-08 21:30:53,0.536s,PASSED
+"verifyElementVisible(findTestObject(""Category/Home and Furniture/btn_cancel-product-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:53,2023-09-08 21:30:53,0.110s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_add-product-stand-hanger-category_hf""), 0)",,,,2023-09-08 21:30:53,2023-09-08 21:30:53,0.176s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_back-to-hf-category_hf""), 0)",,,,2023-09-08 21:30:53,2023-09-08 21:30:54,0.714s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_back-to-category-category_hf""), 0)",,,,2023-09-08 21:30:54,2023-09-08 21:30:56,1.897s,PASSED
+"tap(findTestObject(""Category/Home and Furniture/btn_back-category-category_hf""), 0)",,,,2023-09-08 21:30:56,2023-09-08 21:30:56,0.929s,PASSED

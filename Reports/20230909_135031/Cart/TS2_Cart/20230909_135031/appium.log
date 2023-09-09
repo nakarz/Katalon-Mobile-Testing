@@ -1,0 +1,1105 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 52522
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\Najwa\AppData\Local\Temp\\Katalon\Appium\Temp1694242235195
+[35m[Appium][39m   chromedriverPort: 52523
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 52523
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52522
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","platform":"ANDROID","systemPort":8267},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8267,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 53800b34-1be5-468d-88ce-f07f9b1c6660
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Najwa\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Najwa/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Najwa\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Najwa\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Najwa\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Najwa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Najwa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Najwa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Najwa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 53800b34-1be5-468d-88ce-f07f9b1c6660 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7846 ms - 1184[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660 [39m[32m200[39m [90m16 ms - 1138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660 [39m[32m200[39m [90m14 ms - 1138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/screenshot [39m[32m200[39m [90m352 ms - 235930[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/window/rect [39m[32m200[39m [90m46 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/appium/device/system_bars [39m[32m200[39m [90m73 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.solodroid.solomerce"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/appium/device/activate_app [39m[32m200[39m [90m337 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m249 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m109 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m161 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m193 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m1383 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/element/00000000-0000-04c9-ffff-ffff00000017/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (53800b34)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 2dd54dbe-e0f8-4d03-af20-5ab358cd2663 with 53800b34-1be5-468d-88ce-f07f9b1c6660
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/element/00000000-0000-04c9-ffff-ffff00000017/location [39m[32m200[39m [90m24 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/element/00000000-0000-04c9-ffff-ffff00000017/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04c9-ffff-ffff00000017"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/element/00000000-0000-04c9-ffff-ffff00000017/click [39m[32m200[39m [90m58 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/window/rect [39m[32m200[39m [90m10 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m1108 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m621 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/contexts [39m[32m200[39m [90m70 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/screenshot [39m[32m200[39m [90m351 ms - 373374[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/53800b34-1be5-468d-88ce-f07f9b1c6660/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","platform":"ANDROID","systemPort":8224},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8224,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: c749ca63-dcdf-4949-8724-c9f173ef2148
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Najwa\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Najwa\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Najwa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Najwa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session c749ca63-dcdf-4949-8724-c9f173ef2148 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m6846 ms - 1184[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148 [39m[32m200[39m [90m13 ms - 1138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148 [39m[32m200[39m [90m9 ms - 1138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/screenshot [39m[32m200[39m [90m426 ms - 237272[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect [39m[32m200[39m [90m10 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/appium/device/system_bars [39m[32m200[39m [90m89 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.solodroid.solomerce"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/appium/device/activate_app [39m[32m200[39m [90m442 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m493 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m109 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m278 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m548 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m156 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m481 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/btn_add_cart"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m382 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04cb-ffff-ffff00000017/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c749ca63)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 8061b4fd-6cd7-425c-a6b2-c7d2586d2553 with c749ca63-dcdf-4949-8724-c9f173ef2148
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04cb-ffff-ffff00000017/location [39m[32m200[39m [90m937 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04cb-ffff-ffff00000017/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-04cb-ffff-ffff00000017"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04cb-ffff-ffff00000017/click [39m[32m200[39m [90m52 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Whoops, your cart is empty\").resourceId(\"com.solodroid.solomerce:id/no_item_message\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m685 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04d8-ffff-ffff0000012e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c749ca63)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 8061b4fd-6cd7-425c-a6b2-c7d2586d2553 with c749ca63-dcdf-4949-8724-c9f173ef2148
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04d8-ffff-ffff0000012e/location [39m[32m200[39m [90m15 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect [39m[32m200[39m [90m10 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m27 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04d8-ffff-ffff0000012d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c749ca63)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 8061b4fd-6cd7-425c-a6b2-c7d2586d2553 with c749ca63-dcdf-4949-8724-c9f173ef2148
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/element/00000000-0000-04d8-ffff-ffff0000012d/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m3482 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m113 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m123 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"CONTINUE SHOPPING\").resourceId(\"com.solodroid.solomerce:id/btn_continue\").packageName(\"com.solodroid.solomerce\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c749ca63-dcdf-4949-8724-c9f173ef2148/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m

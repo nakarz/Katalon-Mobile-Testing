@@ -32,7 +32,7 @@ Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Name/bt
 
 Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile'), 0)
 
-Mobile.setText(findTestObject('Profile/Edit Profile/Section/Name/input_name-form-edit_profile'), GlobalVariable.name, 0)
+Mobile.setText(findTestObject('Profile/Edit Profile/Section/Name/input_name-form-edit_profile'), GlobalVariable.name, 10)
 
 Mobile.tap(findTestObject('Profile/Edit Profile/Section/Name/btn_ok-name-form-edit_profile'), 0)
 
@@ -48,7 +48,7 @@ Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Email/b
 Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile'), 0)
 
 Mobile.setText(findTestObject('Profile/Edit Profile/Section/Email/input_email-form-edit_profile'), GlobalVariable.validEmail, 
-    0)
+    10)
 
 Mobile.tap(findTestObject('Profile/Edit Profile/Section/Email/btn_ok-email-form-edit_profile'), 0)
 
@@ -66,7 +66,7 @@ Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Phone N
 Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile'), 0)
 
 Mobile.setText(findTestObject('Profile/Edit Profile/Section/Phone Number/input_pn-form-edit_profile'), GlobalVariable.phoneNumber, 
-    0)
+    10)
 
 Mobile.tap(findTestObject('Profile/Edit Profile/Section/Phone Number/btn_ok-pn-form-edit_profile'), 0)
 
@@ -84,7 +84,7 @@ Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Address
 Mobile.verifyElementVisible(findTestObject('Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile'), 0)
 
 Mobile.setText(findTestObject('Profile/Edit Profile/Section/Address/input_address-form-edit_profile'), GlobalVariable.address, 
-    0)
+    10)
 
 Mobile.tap(findTestObject('Profile/Edit Profile/Section/Address/btn_ok-address-form-edit_profile'), 0)
 

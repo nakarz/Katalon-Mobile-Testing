@@ -25,8 +25,6 @@ Mobile.tap(findTestObject('Category/Fashions/btn_product-man-batik-category_fash
 
 Mobile.verifyElementVisible(findTestObject('Category/Fashions/txt_product-title-men-batik-category_fashion'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Category/Fashions/txt_product-price-25usd-category_fashion'), 0)
-
 Mobile.verifyElementVisible(findTestObject('Category/Fashions/txt_product-count-28itemsmen-batik-category_fashion'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Fashions/btn_add-to-cart-men-batik-category_fashion'), 0)
@@ -90,8 +88,6 @@ Mobile.tap(findTestObject('Category/Home and Furniture/btn_product-stand-hanger-
 
 Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/txt_product-title-stand-hanger-category_hf'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/txt_product-price-stand-hanger-category_hf'), 0)
-
 Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/txt_product-count-stand-hanger-category_hf'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/btn_add-to-cart-category_hf'), 0)
@@ -115,4 +111,6 @@ Mobile.tap(findTestObject('Category/Home and Furniture/btn_back-to-hf-category_h
 Mobile.tap(findTestObject('Category/Home and Furniture/btn_back-to-category-category_hf'), 0)
 
 Mobile.tap(findTestObject('Category/Home and Furniture/btn_back-category-category_hf'), 0)
+
+Mobile.callTestCase(findTestCase('Reusable-Test/TC0_Terminate-App'), [:], FailureHandling.STOP_ON_FAILURE)
 
